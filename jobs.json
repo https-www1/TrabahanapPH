@@ -1,0 +1,99 @@
+[
+  {
+    "title": "Junior Web Developer",
+    "company": "Mabuhay Tech Solutions",
+    "location": "Metro Manila",
+    "type": "Full-time",
+    "salary": "PHP 25,000 - 35,000 / month",
+    "posted": "3 days ago",
+    "remote": false,
+    "skills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git"
+    ],
+    "description": "Tulong sa paggawa at pag-maintain ng company websites. Open sa fresh graduates na may basic web dev skills.",
+    "applyLink": "mailto:hr@mabuhaytech.ph?subject=Application%20-%20Junior%20Web%20Developer"
+  },
+  {
+    "title": "Online ESL Teacher",
+    "company": "Bayan Learning Center",
+    "location": "Remote",
+    "type": "Part-time",
+    "salary": "PHP 180 - 230 / hour",
+    "posted": "1 week ago",
+    "remote": true,
+    "skills": [
+      "English Communication",
+      "Teaching",
+      "Zoom"
+    ],
+    "description": "Mag-turo ng English sa mga bata at adults online. May training at provided na lesson materials.",
+    "applyLink": "mailto:jobs@bayanlearning.ph?subject=Application%20-%20Online%20ESL%20Teacher"
+  },
+  {
+    "title": "Registered Nurse",
+    "company": "Pag-asa Medical Center",
+    "location": "Cebu",
+    "type": "Full-time",
+    "salary": "PHP 30,000 - 45,000 / month",
+    "posted": "2 days ago",
+    "remote": false,
+    "skills": [
+      "Nursing",
+      "Patient Care",
+      "BLS/ACLS"
+    ],
+    "description": "Magbibigay ng nursing care sa mga pasyente sa medical-surgical ward. Open sa may valid PRC license.",
+    "applyLink": "mailto:careers@pagasamedical.ph?subject=Application%20-%20Registered%20Nurse"
+  },
+  {
+    "title": "Customer Support Representative",
+    "company": "IslaConnect BPO",
+    "location": "Davao",
+    "type": "Contract",
+    "salary": "PHP 28,000 - 32,000 / month",
+    "posted": "5 days ago",
+    "remote": false,
+    "skills": [
+      "Communication",
+      "Customer Service",
+      "Call Center"
+    ],
+    "description": "Sasagot sa tawag at chat ng customers. Night shift; may night differential at allowances.",
+    "applyLink": "mailto:apply@islaconnect.ph?subject=Application%20-%20Customer%20Support%20Representative"
+  },
+  {
+    "title": "Graphic Design Intern",
+    "company": "Likhain Studio",
+    "location": "Metro Manila",
+    "type": "Internship",
+    "salary": "Allowance + portfolio experience",
+    "posted": "Today",
+    "remote": true,
+    "skills": [
+      "Canva",
+      "Photoshop",
+      "Creativity"
+    ],
+    "description": "Tutulong sa paggawa ng social media posts at marketing materials. Open sa students.",
+    "applyLink": "mailto:hello@likhainstudio.ph?subject=Application%20-%20Graphic%20Design%20Intern"
+  },
+  {
+    "title": "Barangay Project Assistant",
+    "company": "LokalGov Initiatives",
+    "location": "Metro Manila",
+    "type": "Contract",
+    "salary": "PHP 20,000 - 25,000 / month",
+    "posted": "4 days ago",
+    "remote": false,
+    "skills": [
+      "Community Work",
+      "Documentation",
+      "Basic MS Office"
+    ],
+    "description": "Tutulong sa pagpapatupad ng community projects, pagkuha ng data, at pag-coordinate sa barangay officials.",
+    "applyLink": "mailto:hr@lokalgov.ph?subject=Application%20-%20Barangay%20Project%20Assistant"
+  }
+]
