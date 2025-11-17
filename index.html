@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TrabaHanapPH - Job Hunting for Filipinos</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <div class="logo">
+      <span class="sun-icon">✸</span>
+      <span class="logo-text">TrabaHanap<span>PH</span></span>
+    </div>
+    <nav class="nav-links">
+      <a href="#search">Hanap Trabaho</a>
+      <a href="#how-it-works">Paano Gumagana</a>
+      <a href="#about">Tungkol Dito</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="search" class="hero">
+      <div class="hero-content">
+        <p class="tagline">Para sa mga naghahanap ng maayos na trabaho sa Pilipinas</p>
+        <h1>Madaling Hanap-Trabaho para sa mga Pilipino 🇵🇭</h1>
+
+        <div class="search-card">
+          <h2 class="search-title">Step 1: Ilagay ang hinahanap mong trabaho</h2>
+          <div class="search-row">
+            <label>
+              Job title o keyword
+              <input type="text" id="keywordInput" placeholder="Halimbawa: Teacher, Driver, Nurse"/>
+            </label>
+
+            <label>
+              Lokasyon
+              <select id="locationSelect">
+                <option value="">Kahit saan sa Pinas</option>
+                <option value="Metro Manila">Metro Manila</option>
+                <option value="Cebu">Cebu</option>
+                <option value="Davao">Davao</option>
+                <option value="Remote">Remote (Work from Home)</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="filters-row">
+            <span class="filters-label">Step 2: Piliin ang uri ng trabaho</span>
+            <div class="chips-wrap">
+              <button class="filter-chip active" data-type="all">Lahat</button>
+              <button class="filter-chip" data-type="Full-time">Full-time</button>
+              <button class="filter-chip" data-type="Part-time">Part-time</button>
+              <button class="filter-chip" data-type="Contract">Contract</button>
+              <button class="filter-chip" data-type="Internship">Internship</button>
+            </div>
+          </div>
+
+          <button id="searchBtn" class="primary-btn">🔍 Maghanap</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="jobs-section">
+      <h2>Step 3: Pumili ng Trabaho</h2>
+      <div id="jobsContainer" class="jobs-grid"></div>
+      <p id="noResults" class="no-results hidden">Walang resulta. Subukan baguhin ang filters.</p>
+    </section>
+
+    <section id="how-it-works" class="info-section">
+      <h2>Paano Gumagana ang TrabaHanapPH</h2>
+      <div class="steps-grid">
+        <div class="step-card"><div class="step-number">1</div><p>Maghanap</p></div>
+        <div class="step-card"><div class="step-number">2</div><p>Basahin ang detalye</p></div>
+        <div class="step-card"><div class="step-number">3</div><p>Mag-apply</p></div>
+      </div>
+    </section>
+
+    <section id="about" class="info-section about-section">
+      <h2>Tungkol sa Proyektong Ito</h2>
+      <p>Ang TrabaHanapPH ay Filipino-themed job hunting webpage na madaling gamitin.</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>🇵🇭 TrabaHanapPH — Ginawa para sa mga Pilipino job seekers.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
